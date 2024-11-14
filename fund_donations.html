@@ -56,7 +56,76 @@
                 </nav>
             </header>
 
-            <main></main>
+            <main>
+              <h1>Our Fund & Donations</h1>
+              <section id="how_fund_works">
+                <h2>How it works</h2>
+                <h3>When you donate</h3>
+                <p>We accept either monetary or device donations from anyone who wants to give. We are completely open in what we do with our donations and where each donation goes. When you donate, we will follow up with you (unless you choose to remain anonymous) after we have used your donation. If you choose to donate a device like a computer, phone, tablet, or anything else, we will either use those for classes so people don't need to already have a device to attend a class or we will redistribute it to those in our list of people who need a new device. If you choose to donate money, we will use that money for one of a few things:</p>
+                <ul>
+                  <li>Operational Costs - keeping our website running, paying for space to hold classes or tech support drop-ins, supplies for classes, printed materials for classes, software like Zoom, and transportation costs</li>
+                  <li>Devices - computers, phones, tablets, etc. for people in our list of those who need devices</li>
+                  <li>Internet and phone bills for those in need</li>
+                </ul>
+                <h4>Device Donation Guidelines</h4>
+                <p>We gratefully accept most tech devices that are in working condition. Donated devices will either go directly to those in need or be used as learning tools in our classes. Here’s what we’re looking for:</p>
+                <ol>
+                  <li>Devices We Accept:</li>
+                  <ul>
+                    <li>Computers (Desktops, Laptops, Chromebooks)</li>
+                    <li>Tablets and Smartphones</li>
+                    <li>Peripherals (monitors, keyboards, mice, power cords, etc.)</li>
+                    <li>Networking Devices (routers, modems, Wi-Fi extenders, switches, firewalls, wireless access points, etc.)</li>
+                    <li>Storage Devices (external hard drives, USB drives, SD cards)</li>
+                    <li>Printers and Scanners</li>
+                  </ul>
+                  <li>Condition Requirements:</li>
+                  <ul>
+                    <li><strong>Working Condition:</strong> Devices should ideally be functional. Broken screens, damaged charging ports, or malfunctioning buttons are find if the device still turns on and could be repurposed.</li>
+                    <li><strong>Age and Usability:</strong> Devices should generally be less than 10 years old unless they're unique (like vintage items or repairable hardware for teaching purposes).</li>
+                    <li><strong>Data Security:</strong> Please erase personal data if possible. We can help with secure data wiping as needed.</li>
+                  </ul>
+                  <li>Items We Can't Currently Accept:</li>
+                  <ul>
+                    <li><strong>Devices with Irreparable Damage:</strong> Items like devices with water damage, completely dead hard drives, or severely cracked screens may be too difficult to repair or repurpose. However, we can use some of these for hands-on learning in repair classes - please check with us!</li>
+                    <li><strong>Old Printers or CRT Monitors:</strong> Due to storage and disposal challenges, we may limit acceptance of these items unless specifically requested.</li>
+                  </ul>
+                  <li>Preparing Your Donation:</li>
+                  <ul>
+                    <li><strong>Remove Personal Information:</strong> Please delete any sensitive information. If you're unsure, we can securely erase data.</li>
+                    <li><strong>Include Accessories:</strong> Power cords, adapters, and any original accessories are always helpful!</li>
+                    <li><strong>Label Issues:</strong> If there's a known issue, please let us know. It helps us decide the best use for the device.</li>
+                  </ul>
+                  <li>Where to Drop Off:</li>
+                  <ul>
+                    <li><strong>Drop-Off Locations:</strong> We accept donations at our in-person events and scheduled drop-offs. Check our website for current locations and times.</li>
+                    <li><strong>Home Pickup:</strong> For larger donations, we may be able to arrange a pickup within the Portland area.</li>
+                  </ul>
+                </ol>
+                <p>If you're unsure about your item or it falls outside these guidelines, reach out to us! We're always happy to discuss options.</p>
+
+                <h3>When you need help</h3>
+                <p>Please fill out the form below, call us, or email us if you are in need of aid. Once we get your request, we will reach out to elvauate your need and place you in our queue, depending on your need and the need of others. We prioritize BIPOC and low-income households in the Portland area.</p>
+              </section>
+
+              <section id="need_aid_form_section">
+                <h2>In Need of Aid?</h2>
+                <p>Fill out the form below, call, or email us to start the process of receiving aid.</p>
+                <form id="need_aid_form">
+                  <label for="need_aid_form_name">Name<span class="required_input_indicator">*</span>: <input type="text" name="need_aid_form_name" id="need_aid_form_name" required></label>
+                  <label for="need_aid_form_email">Email<span class="required_input_indicator">*</span>: <input type="email" name="need_aid_form_email" id="need_aid_form_email" required></label>
+                  <label for="need_aid_form_phone_number">Phone Number: <input type="tel" name="need_aid_form_phone_number" id="need_aid_form_phone_number"></label>
+                  <p>What do you need help with?<span class="required_input_indicator">*</span></p>
+                  <label for="need_aid_form_aid_needed_computer"><input type="radio" id="need_aid_form_aid_needed_computer" name="need_aid_form_aid_needed"> Computer</label>
+                  <label for="need_aid_form_aid_needed_cell_phone"><input type="radio" id="need_aid_form_aid_needed_cell_phone" name="need_aid_form_aid_needed"> Cell Phone</label>
+                  <label for="need_aid_form_aid_needed_tablet"><input type="radio" id="need_aid_form_aid_needed_tablet" name="need_aid_form_aid_needed"> Tablet</label>
+                  <label for="need_aid_form_aid_needed_bills"><input type="radio" id="need_aid_form_aid_needed_bills" name="need_aid_form_aid_needed"> Bills</label>
+                  <label for="need_aid_form_aid_needed_other"><input type="radio" id="need_aid_form_aid_needed_other" name="need_aid_form_aid_needed"> Other</label>
+                  <label for="need_aid_form_message">Information On Your Needs<span class="required_input_indicator">*</span>: <textarea name="need_aid_form_message" id="need_aid_form_message" rows="10" cols="50" required></textarea></label>
+                  <input type="submit">
+                </form>
+              </section>
+            </main>
 
             <footer>
               <section id="footer-links">
@@ -69,6 +138,12 @@
                 <a href="classes.html">Classes</a>
                 <a aria-current="page" href="#">Aid Fund & Donations</a>
                 <a href="resources.html">Resources</a>
+              </section>
+
+              <section id="footer-contact">
+                <p>Contact Us</p>
+                <a href="mailto:example@example.com">example@example.com</a>
+                <a href="tel:5555555555">555-555-5555</a>
               </section>
             </footer>
         </div>
