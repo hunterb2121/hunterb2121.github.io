@@ -78,14 +78,17 @@
                   <label for="tech_support_form_name">Name<span class="required_input_indicator">*</span>: <input type="text" name="tech_support_form_name" id="tech_support_form_name" required autofocus></label>
                   <label for="tech_support_form_email">Email<span class="required_input_indicator">*</span>: <input type="email" name="tech_support_form_email" id="tech_support_form_email" required></label>
                   <label for="tech_support_form_phone_number">Phone Number: <input type="tel" name="tech_support_form_phone_number" id="tech_support_form_phone_number"></label>
+
                   <p>Type of Support Being Requested<span class="required_input_indicator">*</span></p>
-                  <label for="tech_support_form_in_person_support"><input type="radio" name="tech_support_form_support_type" id="tech_support_form_in_person_support"> In-Person</label>
-                  <label for="tech_support_form_in_home_support"><input type="radio" name="tech_support_form_support_type" id="tech_support_form_in_home_support"> In-Home</label>
-                  <label for="tech_support_form_phone_support"><input type="radio" name="tech_support_form_support_type" id="tech_support_form_phone_support"> Over the Phone</label>
+                  <label for="tech_support_form_in_person_support"><input type="radio" name="tech_support_form_support_type" id="tech_support_form_in_person_support" required> In-Person</label>
+                  <label for="tech_support_form_in_home_support"><input type="radio" name="tech_support_form_support_type" id="tech_support_form_in_home_support" required> In-Home</label>
+                  <label for="tech_support_form_phone_support"><input type="radio" name="tech_support_form_support_type" id="tech_support_form_phone_support" required> Over the Phone</label>
+
                   <p>Preferred Times<span class="required_input_indicator">*</span></p>
-                  <label for="tech_support_form_morning_time"><input type="checkbox" name="tech_support_form_time" id="tech_support_form_morning_time"> Morning</label>
-                  <label for="tech_support_form_afternoon_time"><input type="checkbox" name="tech_support_form_time" id="tech_support_form_afternoon_time"> Afternoon</label>
-                  <label for="tech_support_form_evening_time"><input type="checkbox" name="tech_support_form_time" id="tech_support_form_evening_time"> Evening</label>
+                  <label for="tech_support_form_morning_time"><input type="checkbox" name="tech_support_form_time" id="tech_support_form_morning_time" required> Morning</label>
+                  <label for="tech_support_form_afternoon_time"><input type="checkbox" name="tech_support_form_time" id="tech_support_form_afternoon_time" required> Afternoon</label>
+                  <label for="tech_support_form_evening_time"><input type="checkbox" name="tech_support_form_time" id="tech_support_form_evening_time" required> Evening</label>
+
                   <label for="tech_support_form_message">Problem Description<span class="required_input_indicator">*</span>: <textarea name="tech_support_form_message" id="tech_support_form_message" rows="10" cols="50" required></textarea></label>
                   <input type="submit">
                 </form>

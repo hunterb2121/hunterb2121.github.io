@@ -115,13 +115,40 @@
                   <label for="need_aid_form_name">Name<span class="required_input_indicator">*</span>: <input type="text" name="need_aid_form_name" id="need_aid_form_name" required></label>
                   <label for="need_aid_form_email">Email<span class="required_input_indicator">*</span>: <input type="email" name="need_aid_form_email" id="need_aid_form_email" required></label>
                   <label for="need_aid_form_phone_number">Phone Number: <input type="tel" name="need_aid_form_phone_number" id="need_aid_form_phone_number"></label>
+
                   <p>What do you need help with?<span class="required_input_indicator">*</span></p>
-                  <label for="need_aid_form_aid_needed_computer"><input type="radio" id="need_aid_form_aid_needed_computer" name="need_aid_form_aid_needed"> Computer</label>
-                  <label for="need_aid_form_aid_needed_cell_phone"><input type="radio" id="need_aid_form_aid_needed_cell_phone" name="need_aid_form_aid_needed"> Cell Phone</label>
-                  <label for="need_aid_form_aid_needed_tablet"><input type="radio" id="need_aid_form_aid_needed_tablet" name="need_aid_form_aid_needed"> Tablet</label>
-                  <label for="need_aid_form_aid_needed_bills"><input type="radio" id="need_aid_form_aid_needed_bills" name="need_aid_form_aid_needed"> Bills</label>
-                  <label for="need_aid_form_aid_needed_other"><input type="radio" id="need_aid_form_aid_needed_other" name="need_aid_form_aid_needed"> Other</label>
+                  <label for="need_aid_form_aid_needed_computer"><input type="radio" id="need_aid_form_aid_needed_computer" name="need_aid_form_aid_needed" value="computer" required> Computer</label>
+                  <label for="need_aid_form_aid_needed_cell_phone"><input type="radio" id="need_aid_form_aid_needed_cell_phone" name="need_aid_form_aid_needed" value="cell_phone" required> Cell Phone</label>
+                  <label for="need_aid_form_aid_needed_tablet"><input type="radio" id="need_aid_form_aid_needed_tablet" name="need_aid_form_aid_needed" value="tablet" required> Tablet</label>
+                  <label for="need_aid_form_aid_needed_bills"><input type="radio" id="need_aid_form_aid_needed_bills" name="need_aid_form_aid_needed" value="bills" required> Bills</label>
+                  <label for="need_aid_form_aid_needed_other"><input type="radio" id="need_aid_form_aid_needed_other" name="need_aid_form_aid_needed" value="other" required> Other</label>
+
+                  <p>What is your yearly household income?<span class="required_input_indicator">*</span></p>
+                  <label for="need_aid_form_income_lower"><input type="radio" id="need_aid_form_income_lower" name="need_aid_form_income" value="lower" required> Less than $30,001</label>
+                  <label for="need_aid_form_income_lower_middle"><input type="radio" id="need_aid_form_income_lower_middle" name="need_aid_form_income" value="lower_middle" required> $30,001 - $58,020</label>
+                  <label for="need_aid_form_income_middle"><input type="radio" id="need_aid_form_income_middle" name="need_aid_form_income" value="middle" required> $58,021 - $94,000</label>
+                  <label for="need_aid_form_income_middle_upper"><input type="radio" id="need_aid_form_income_middle_upper" name="need_aid_form_income" value="middle_upper" required> $94,001 - $153,000</label>
+                  <label for="need_aid_form_income_upper"><input type="radio" id="need_aid_form_income_upper" name="need_aid_form_income" value="upper" required> Greater than $153,000</label>
+
                   <label for="need_aid_form_message">Information On Your Needs<span class="required_input_indicator">*</span>: <textarea name="need_aid_form_message" id="need_aid_form_message" rows="10" cols="50" required></textarea></label>
+                  <input type="submit">
+                </form>
+              </section>
+
+              <section id="donation_form_section">
+                <form id="donation_form">
+                  <label for="donation_form_name">Name<span class="required_input_indicator">*</span>: <input type="text" name="donation_form_name" id="donation_form_name" required></label>
+                  <label for="donation_form_email">Email<span class="required_input_indicator">*</span>: <input type="email" name="donation_form_email" id="donation_form_email" required></label>
+                  <label for="donation_form_phone_number">Phone Number: <input type="tel" name="donation_form_phone_number" id="donation_form_phone_number"></label>
+
+                  <p>What do you plan on donating?<span class="required_input_indicator">*</span></p>
+                  <label for="donation_form_computer"><input type="radio" id="donation_form_computer" name="donation_form_donation_type" value="computer" required> Computer</label>
+                  <label for="donation_form_cell_phone"><input type="radio" id="donation_form_cell_phone" name="donation_form_donation_type" value="cell_phone" required> Cell Phone</label>
+                  <label for="donation_form_tablet"><input type="radio" id="donation_form_tablet" name="donation_form_donation_type" value="tablet" required> Tablet</label>
+                  <label for="donation_form_other_device"><input type="radio" id="donation_form_other_device" name="donation_form_donation_type" value="other_device" required> Other Device</label>
+                  <label for="donation_form_money"><input type="radio" id="donation_form_money" name="donation_form_donation_type" value="money" required> Money</label>
+
+                  <label for="donation_form_message">Additional Information: <textarea name="donation_form_message" id="donation_form_message" rows="10" cols="50"></textarea></label>
                   <input type="submit">
                 </form>
               </section>
